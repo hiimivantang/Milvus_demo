@@ -11,20 +11,17 @@ This repository demonstrates how to use [Milvus](https://github.com/milvus-io/mi
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/stephen37/Milvus_demo.git
+    git clone https://github.com/hiimivantang/Milvus_demo.git
     ```
 2. Navigate to the project directory:
     ```sh
     cd Milvus_demo/multimodal_milvus_clip
     ```
-3. Install the required packages:
-    ```sh
-    poetry install 
-    ```
-4. Start Milvus standalone: 
+3. Start Milvus standalone: 
     ```sh
     docker-compose up -d
     ```
+4. Download ollama from [https://ollama.com/download](url)
 
 ## Usage
 
