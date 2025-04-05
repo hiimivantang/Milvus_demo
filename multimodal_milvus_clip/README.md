@@ -7,7 +7,20 @@ This repository demonstrates how to use [Milvus](https://github.com/milvus-io/mi
 - **CLIP Model**: Employs OpenAI's CLIP model to encode images and text into vectors.
 - **Multimodal Search**: Perform similarity searches across different data modalities (images and text).
 
-## Installation
+
+
+## Pre-requisites
+
+Install Python 3.11 (Windows):
+- https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe
+
+Install Python 3.11 (MacOS):
+- https://www.python.org/ftp/python/3.11.0/python-3.11.0-macos11.pkg
+
+Install ollama:
+- https://ollama.com/download
+
+## Set up
 
 1. Clone the repository:
     ```sh
@@ -21,7 +34,10 @@ This repository demonstrates how to use [Milvus](https://github.com/milvus-io/mi
     ```sh
     docker-compose up -d
     ```
-4. Download ollama from [https://ollama.com/download](url)
+4. Run llama3 LLM locally
+   ```
+   ollama run llama3
+   ```
 
 ## Usage
 
