@@ -20,6 +20,7 @@ Install Python 3.11 (MacOS):
 Install ollama:
 - https://ollama.com/download
 
+
 ## Set up
 
 1. Clone the repository:
@@ -37,6 +38,10 @@ Install ollama:
 4. Run llama3 LLM locally
    ```
    ollama run llama3
+   ```
+5. Install jupyter
+   ```
+   pip install jupyter
    ```
 
 ## Usage
